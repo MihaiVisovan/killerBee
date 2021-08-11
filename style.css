@@ -101,7 +101,7 @@ input:focus {
   display: grid ;
   grid-auto-rows: 15%; 
   grid-template-columns: 250px 250px 250px; 
-  overflow: scroll;
+  overflow: auto;
   color: white;
   font-size: 1.5rem;
   margin-left: 10rem;
