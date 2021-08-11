@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src='index.js'></script>
+    <link rel='stylesheet' href='style.css'>
+    <title>Killer Bee</title>
+    <link rel="shortcut icon" href="./assets/title.ico" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="main-page">
+        <a class="title" target="_blank" href="https://naruto.fandom.com/wiki/Killer_B">Killer Bee</a>
+        <div>
+          Enter your name:
+        </div>
+        <form onsubmit="submitName(event)">
+          <input id='input'/>
+        </form>
+      </div>
+      <div class="game-page">
+        <div class="intro">
+          <div class="name"></div>
+          <div class="logo">
+            Let's kill some bees!
+          </div>
+          <div class="general-info">
+            <span class="swarm"></span>
+            <span class="damage"> </span>
+            <span class="bee-type"></span>
+          </div>
+        </div>
+        <div class="content">
+          <button class="hit-button" onclick='damageBees()'>
+            Hit!
+          </button>
+          <div class="bees"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

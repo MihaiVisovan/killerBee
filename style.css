@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  background-image: url('./assets/hive.jpeg');
+  background-size: cover;
+  overflow-y: hidden;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-page {
+  color: white;
+  font-size: 7rem;
+  text-align: center;
+}
+
+.title {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.title:hover {
+  color: #d0a85f;
+}
+
+input {
+  width: 80%;
+  height: 150px;
+  background: transparent;
+  font-size: 6rem;
+  color: white;
+  border: none;
+  border-bottom: 2px solid white;
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
+}
+
+.game-page {
+  display: none;
+}
+
+.intro {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.logo {
+  color: #d0a85f;
+  font-size: 7rem;
+}
+
+.name {
+  color: white;
+  font-size: 5rem;
+}
+
+.general-info {
+  margin-top: 3rem;
+}
+
+.swarm, .damage, .bee-type{
+  color: white;
+  font-size: 2rem;
+}
+
+.hit-button {
+  width: 250px;
+  height: 250px;
+  font-size: 6rem;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 7px 6px 28px 1px white;
+  cursor: pointer;
+}
+
+.hit-button:active {
+  transform: scale(0.97);
+  box-shadow: 3px 2px 22px 1px white;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 7rem;
+  height: 50vh;
+}
+
+.bees {
+  display: grid ;
+  grid-auto-rows: 15%; 
+  grid-template-columns: 250px 250px 250px; 
+  overflow: scroll;
+  color: white;
+  font-size: 1.5rem;
+  margin-left: 10rem;
+}
